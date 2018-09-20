@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="team.developer.official.dpkt.LoginActivity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:id="@+id/logUsername"
+        android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="Username"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@drawable/border_button_1"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/logPassword"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:hint="Pasword"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@drawable/border_button_1"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="login"
+        android:textColor="@color/white"
+        android:background="@drawable/default_rounded_button"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtReg"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register here!"/>
+
+</LinearLayout>

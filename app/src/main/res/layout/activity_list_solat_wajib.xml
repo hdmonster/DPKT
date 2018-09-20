@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="team.developer.official.dpkt.ListSolatWajib">
+
+    <Button
+        android:id="@+id/btnSubuh"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_button_1"
+        android:textColor="@color/refresh1"
+        android:text="shubuh"/>
+
+    <Button
+        android:id="@+id/btnZuhur"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_button_1"
+        android:textColor="@color/refresh1"
+        android:text="zuhur"/>
+
+    <Button
+        android:id="@+id/btnAsar"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_button_1"
+        android:textColor="@color/refresh1"
+        android:text="asar"/>
+
+    <Button
+        android:id="@+id/btnMaghrib"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_button_1"
+        android:textColor="@color/refresh1"
+        android:text="maghrib"/>
+
+    <Button
+        android:id="@+id/btnIsya"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_button_1"
+        android:textColor="@color/refresh1"
+        android:text="isya"/>
+
+</LinearLayout>

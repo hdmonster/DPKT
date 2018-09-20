@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Kehadiran">
+        <menu>
+            <item
+                android:id="@+id/kehadiranSolat"
+                android:title="Kehadiran Solat"
+                android:icon="@drawable/ic_event_available_black_24dp"/>
+            <item
+                android:id="@+id/kehadiranTahajud"
+                android:title="Kehadiran Tahajud"
+                android:icon="@drawable/ic_event_available_black_24dp"/>
+            <item
+                android:id="@+id/kehadiranP"
+                android:title="Kehadiran Pengawas"
+                android:icon="@drawable/ic_event_black_24dp"/>
+
+        </menu>
+    </item>
+
+    <group>
+        <item
+            android:id="@+id/jadwal"
+            android:title="Jadwal"
+            android:icon="@drawable/ic_schedule_black_24dp"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    </group>
+
+
+
+</menu>
